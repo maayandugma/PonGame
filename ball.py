@@ -45,3 +45,12 @@ class Ball(Turtle):
 
     def paddle_touch(self):
         self.x_move *= -1
+
+    def reset_position(self):
+        self.hideturtle()
+        self.goto(0,0)
+        self.showturtle()
+        self.x_move *= -1
+        self.y_move *= -1
+
+
