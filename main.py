@@ -34,7 +34,7 @@ def check_counter(counter):
 while True:
     if score.l_score < 2 and score.r_score < 2:
         print(score.l_score)
-        game_is_on = True
+        # game_is_on = True
         while game_is_on:
             screen.update()
             time.sleep(time_wait)
